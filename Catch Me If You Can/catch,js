@@ -1,0 +1,21 @@
+var box = document.getElementById('box');
+var counter = 0;
+var counterh = 0;
+
+box.addEventListener('mouseover',move);
+
+function move(){
+    if(counter > window.innerWidth - 200){
+        counter = 20;
+    }
+    if(counterh > window.innerHeight - 200){
+        counterh = 20;
+    }
+    let x = Math.random() * 200;
+    let y = Math.random() * 200;
+    counter += x;
+    counterh += y;
+    box.style.left = counter + "px";
+    box.style.top = counterh + "px";
+
+}

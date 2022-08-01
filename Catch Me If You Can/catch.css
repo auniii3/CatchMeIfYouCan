@@ -1,0 +1,21 @@
+#container{
+    height: 97vh;
+    width: 98vw;
+    border: 2px solid black;
+}
+
+#box{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background-color: purple;
+    left: 50%;
+    top: 20%;
+    text-align: center;
+}
+
+p{
+    color: white;
+    margin-top: 40px;
+}
+
